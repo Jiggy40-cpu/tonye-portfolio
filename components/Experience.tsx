@@ -31,23 +31,23 @@ function Experience() {
   ];
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const index = parseInt(entry.target.dataset.index);
-            setVisibleItems((prev) => [...new Set([...prev, index])]);
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && entry.target instanceof HTMLElement) {
+          const index = parseInt(entry.target.dataset.index || "0"); // safe fallback
+          setVisibleItems((prev) => [...new Set([...prev, index])]);
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
 
-    const items = sectionRef.current?.querySelectorAll('.experience-item');
-    items?.forEach((item) => observer.observe(item));
+  const items = sectionRef.current?.querySelectorAll<HTMLElement>('.experience-item');
+  items?.forEach((item) => observer.observe(item));
 
-    return () => observer.disconnect();
-  }, []);
+  return () => observer.disconnect();
+}, []);
 
   return (
     <section id="experience" className="py-20 md:py-32 bg-gray-50">
