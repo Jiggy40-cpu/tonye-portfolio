@@ -8,8 +8,10 @@ function Skills() {
     { name: 'Tailwind CSS', category: 'Frontend' },
     { name: 'Node.js', category: 'Backend' },
     { name: 'Python', category: 'Language' },
-    { name: 'MongoDB', category: 'Database' },
-    { name: 'PostgreSQL', category: 'Database' },
+    { name: 'mysql', category: 'Database' },
+    { name: 'HTML', category: 'Frontend' },
+     { name: 'JAVASCRIPT', category: 'Frontend' }
+
   ];
 
   return (

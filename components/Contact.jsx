@@ -79,9 +79,7 @@ function Contact() {
                 <h3 className="font-semibold text-gray-900 mb-1">
                   {social.name}
                 </h3>
-                <p className="text-sm text-gray-600 group-hover:text-gray-900 transition-colors">
-                  {social.label}
-                </p>
+                
               </a>
             );
           })}

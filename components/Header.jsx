@@ -19,6 +19,8 @@ function Header() {
           <li><a href="#about" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">About</a></li>
           <li><a href="#skills" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Skills</a></li>
           <li><a href="#projects" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Projects</a></li>
+           <li><a href="#experience" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Experience</a></li>
+            <li><a href="#Testimonials" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Testimonials</a></li>
           <li><a href="#publications" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Publications</a></li>
           <li><a href="#contact" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Contact</a></li>
         </ul>
@@ -42,6 +44,8 @@ function Header() {
             <li><a href="#about" className="text-gray-700 hover:text-gray-900 text-sm font-medium block">About</a></li>
             <li><a href="#skills" className="text-gray-700 hover:text-gray-900 text-sm font-medium block">Skills</a></li>
             <li><a href="#projects" className="text-gray-700 hover:text-gray-900 text-sm font-medium block">Projects</a></li>
+            <li><a href="#experience" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Experience</a></li>
+            <li><a href="#testimonials" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Testimonials</a></li>
             <li><a href="#publications" className="text-gray-700 hover:text-gray-900 text-sm font-medium block">Publications</a></li>
             <li><a href="#contact" className="text-gray-700 hover:text-gray-900 text-sm font-medium block">Contact</a></li>
           </ul>

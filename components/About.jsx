@@ -26,11 +26,11 @@ function About() {
           {/* Optional: Key Stats or Highlights */}
           <div className="grid grid-cols-3 gap-6 mt-12 pt-12 border-t border-gray-200">
             <div className="text-center">
-              <p className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">50+</p>
+              <p className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">2+</p>
               <p className="text-gray-600 text-sm font-medium">Projects Completed</p>
             </div>
             <div className="text-center">
-              <p className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">5+</p>
+              <p className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">2+</p>
               <p className="text-gray-600 text-sm font-medium">Years Experience</p>
             </div>
             <div className="text-center">
