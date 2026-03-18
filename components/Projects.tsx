@@ -1,4 +1,5 @@
-export default function Projects() {
+'use client'
+function Projects() {
   const projects = [
     {
       title: "Project 1",
@@ -32,3 +33,4 @@ export default function Projects() {
     </section>
   );
 }
+export default  Projects;
