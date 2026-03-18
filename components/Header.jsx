@@ -3,11 +3,13 @@
   return (
     <header className="bg-white shadow">
       <nav className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-gray-900">Tonye</h1>
+        <h1 className="text-2xl font-bold text-gray-900">TAMUNOTONYE</h1>
         <ul className="flex gap-6">
           <li><a href="#home" className="hover:text-blue-600">Home</a></li>
           <li><a href="#about" className="hover:text-blue-600">About</a></li>
+          <li><a href="#about" className="hover:text-blue-600">Skills</a></li>
           <li><a href="#projects" className="hover:text-blue-600">Projects</a></li>
+          <li><a href="#about" className="hover:text-blue-600">Publications</a></li>
           <li><a href="#contact" className="hover:text-blue-600">Contact</a></li>
         </ul>
       </nav>
