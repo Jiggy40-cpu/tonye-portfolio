@@ -8,25 +8,20 @@ function Experience() {
 
   const experiences = [
     {
-      title: "IT Support INTERN",
+      title: "IT SUPPORT INTERN",
       company: "NIGERIAN MARITIME AND SAFETY ORGANIZATION",
       period: "2026 - Present",
-      description: "Led development of AI-powered analytics platform, managed team of 5 developers, and implemented data-driven solutions.",
-      skills: ["React", "Node.js", "Python", "AWS"]
-    },
+      description: "Assisted in providing technical support across the organization by troubleshooting hardware, software, and network-related issues. Supported the installation, configuration, and maintenance of computer systems, ensuring optimal performance and minimal downtime.",
+      skills: ["Technical Support", "IT Troubleshooting", "Software Installation", "Windows OS","LAN/Wi-Fi",
+      "Help Desk Support", "Microsoft Office"]
+    },  
     {
       title: "IT RISK INTERN",
       company: "EKO ELECTRICITY AND DISTRIBUTION COMPANY",
       period: "JANUARY 2023 - JUNE 2023",
-      description: "Built scalable web applications, developed REST APIs, and integrated machine learning models into production systems.",
-      skills: ["Next.js", "PostgreSQL", "TensorFlow", "Docker"]
-    },
-    {
-      title: "Junior Developer",
-      company: "StartUp Hub",
-      period: "2020 - 2021",
-      description: "Developed responsive web interfaces, wrote clean code, and collaborated with cross-functional teams.",
-      skills: ["React", "JavaScript", "CSS", "MongoDB"]
+      description: "Key contributions included assisting in risk assessments, evaluating IT controls, and monitoring vulnerabilities across network infrastructure and business systems. I contributed to the development of risk reports, documented findings, and recommended improvements aligned with industry standards and internal policies.",
+      skills: ["IT Risk Management", "Risk Assessment", "Incident Monitoring", "Risk Reporting & Documentation",
+        "Data Protection & Privacy" ]
     }
   ];
 

@@ -20,7 +20,7 @@ function Header() {
           <li><a href="#skills" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Skills</a></li>
           <li><a href="#projects" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Projects</a></li>
            <li><a href="#experience" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Experience</a></li>
-            <li><a href="#Testimonials" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Testimonials</a></li>
+            <li><a href="#testimonials" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Testimonials</a></li>
           <li><a href="#publications" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Publications</a></li>
           <li><a href="#contact" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm font-medium">Contact</a></li>
         </ul>
